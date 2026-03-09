@@ -40,5 +40,6 @@ int main()
     cout << "Status    : " << statusBMI(BMI) << endl;
     cout << std::endl;
 
+    
     return 0;
 }
