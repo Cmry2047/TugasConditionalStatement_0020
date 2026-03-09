@@ -17,3 +17,15 @@ float hitungBMI (float a, float b)
 {
     return a / (b * b);
 }
+
+string statusBMI (float BMI)
+{
+    if (BMI < 18.5)
+        return "Berat Badan Kurang Ideal";
+    else if (BMI < 25)
+        return "Berat Badan  Ideal";
+    else if (BMI < 30)
+        return "Berat Badan Berlebih";
+    else 
+        return "Obesitas!";    
+}
